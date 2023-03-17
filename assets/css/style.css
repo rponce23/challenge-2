@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.header{
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #11222a;
+    color: antiquewhite;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+
+.li {
+    display: inline;
+    font-size: 30px;
+    list-style-type: none;
+    padding-inline: 35px;
+    text-decoration: underline;
+      
+}
+
+.amenu {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(23, 9, 72);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+    font-size: 70px;
+}
+
+.imagen{
+    width: 100%;
+    height: 350px;
+}
+
+.navmenu {
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+    color: #11222a;
+    font-size: 40px;
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.vl{
+    padding-top: 20px;
+    border-right: 6px solid #11222a;
+    height: 310px;
+    position: absolute;
+    left: 6%;
+    width: 200px;
+    /* margin-left: 25px; */
+    /* margin-right: 5px; */
+    top: 10;
+}
+
+.imgsec{
+    margin-top: 80px;
+}
+
+p{
+    margin-right: 20px;
+    padding-left: 350px;
+    float: center;
+    width: 80%;
+    height: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+    color: #11222a;
+    font-size: 33px;
+}
