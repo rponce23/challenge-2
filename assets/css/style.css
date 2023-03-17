@@ -86,8 +86,16 @@ body{
     position: absolute;
     left: 6%;
     width: 200px;
-    /* margin-left: 25px; */
-    /* margin-right: 5px; */
+    top: 10;
+}
+
+.vlw{
+    padding-top: 20px;
+    border-right: 6px solid #11222a;
+    height: 2000px;
+    position: absolute;
+    left: 6%;
+    width: 200px;
     top: 10;
 }
 
@@ -106,3 +114,50 @@ p{
     color: #11222a;
     font-size: 33px;
 }
+
+.card {
+    flex: 1 0 0;
+    padding-left: 350px;
+}
+
+.fimage{
+    text-align: left;
+    margin-left: 70px;
+    position: absolute;
+    bottom: -350px;
+    font-size: 40px;
+    color: antiquewhite;
+    background-color: #11222a;
+}
+
+.fsubt{
+    text-align: left;
+    margin-left: 155px;
+    position: absolute;
+    bottom: -380px;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: #11222a;
+}
+
+.simage{
+    text-align: left;
+    margin-left: 70px;
+    position: absolute;
+    bottom: -750px;
+    font-size: 30px;
+    color: antiquewhite;
+    background-color: #11222a;
+}
+
+.ssubt{
+    text-align: left;
+    margin-left: 165px;
+    position: absolute;
+    bottom: -770px;
+    font-size: 15px;
+    color: antiquewhite;
+    background-color: #11222a;
+}
+
+
