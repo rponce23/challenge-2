@@ -71,7 +71,6 @@ main {
 }
 
 
-
 .vl{
     margin-top: 380px;
     border-right: 6px solid #11222a;
@@ -97,7 +96,8 @@ main {
 }
 
 p{
-    margin-top: 20%;
+    position: absoluta;
+    margin-top: 380px;
     margin-left: 20%;
     width: 60%;
     color: #11222a;
