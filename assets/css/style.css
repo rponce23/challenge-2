@@ -99,116 +99,80 @@ p{
     position: absoluta;
     margin-top: 380px;
     margin-left: 20%;
-    width: 60%;
+    width: 70%;
     color: #11222a;
     font-size: 30px;
-   
 }
 
-
-
-.vlw{
-    padding-top: 20px;
-    border-right: 6px solid #11222a;
-    height: 2000px;
-    position: absolute;
-    left: 6%;
-    width: 200px;
-    top: 10;
+.adj{
+    /* margin-top: -250px; */
 }
 
-.imgsec{
-    margin-top: 80px;
+.works{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 380px;
+    margin-top: 350px;
 }
-
-
 
 .card {
-    flex: 1 0 0;
     padding: 10px;
     text-align: right;
     margin-top: 0px; 
-    flex-wrap: wrap; 
-  }
-
-.card h3{
-    padding: 20px;
-    color: antiquewhite;
-    position: relative;
-    bottom: 150px;
-    right: 1300px;
-    font-size: 40px;
-}
-
-.card h5{
-    padding: 20px;
-    color: antiquewhite;
-    position: relative;
-    bottom: 180px;
-    right: 1300px;
-    font-size: 20px;
+    flex-wrap: wrap;    
 }
 
 .card img {
-    margin-top: 80px;
-    width: 82%;
-    height: 600px;
-    min-width: 1500px;
+    max-width:auto;
+    height:100%;
   }
 
-  .pot{
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: right;
-    position: relative;
-    min-width: 800px;
-    height: 900px;
-    margin-top: -200px;
-    margin-right: 10px;
-   
-  }
-
-  .pot img{
-    width: 82%;
-    height: 600px;
-    min-width: 500px;
-    justify-content: space-evenly;
-  }
-
-
-
-
-  /* .carda {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: right;
-    margin-top: 0px;
-     
-  }
-
-.carda h3{
-    padding: 20px;
-    color: red;
-    position: relative;
-    bottom: 150px;
-    right: 1300px;
-    font-size: 40px;
+.card:first-child{
+    height:10em;
+    max-width:auto;
+    width:100%;
+    flex: 0 0 100%;
+    background-image: url(../images/imagen-1.jfif);
+    background-repeat:no-repeat ;
+    background-size:cover;
+    color:white;
 }
 
-.carda h5{
-    padding: 20px;
-    color: red;
-    position: relative;
-    bottom: 180px;
-    right: 1300px;
-    font-size: 20px;
+.card img{
+    display:none;
 }
 
-.carda img {
-    position: relative;
-    width: 82%;
-    height: 400px;
-    min-width: 800px;
-  } */
+.card:nth-child(2){
+    height:10em;
+    max-width:auto;
+    background-image: url(../images/imagen-2.jfif);
+    background-repeat:no-repeat ;
+    background-size:cover;
+    color:white;
+}
+
+.card:nth-child(3){
+    height:10em;
+    max-width:auto;
+    background-image: url(../images/imagen-3.jfif);
+    background-repeat:no-repeat ;
+    background-size:cover;
+    color:white;
+}
+
+.card:not(:first-child){
+    width:100%;
+    flex:1;
+}
+
+.card{
+    margin:1em;
+}
+
+
+
+
+
 
 
