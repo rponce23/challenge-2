@@ -24,6 +24,7 @@ main {
 .header h1 {
     display: inline-block;
     font-size: 50px;
+    background-color: gray;
 }
 
 .ul {
@@ -104,16 +105,14 @@ p{
     font-size: 30px;
 }
 
-.adj{
-    /* margin-top: -250px; */
-}
 
 .works{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 380px;
-    margin-top: 350px;
+    margin-top: 300px;
+    width: 60%;
 }
 
 .card {
@@ -123,20 +122,36 @@ p{
     flex-wrap: wrap;    
 }
 
-.card img {
-    max-width:auto;
-    height:100%;
-  }
+.vl#mywork{
+    height: 800px;
+    margin-top: 80px;
+    
+}
+
+.vl#contactme{
+    height: 300px;
+    margin-top: 80px;
+}
+
+.navi#myjob{
+    margin-top: 0px;
+}
+
+.navi#ajus{
+    margin-left: -40px;
+}
+
 
 .card:first-child{
-    height:10em;
+    height:20em;
     max-width:auto;
     width:100%;
-    flex: 0 0 100%;
+    flex: 0 0 200%;
     background-image: url(../images/imagen-1.jfif);
     background-repeat:no-repeat ;
     background-size:cover;
     color:white;
+    margin-top: -200px;
 }
 
 .card img{
@@ -144,16 +159,17 @@ p{
 }
 
 .card:nth-child(2){
-    height:10em;
+    height:20em;
     max-width:auto;
     background-image: url(../images/imagen-2.jfif);
     background-repeat:no-repeat ;
     background-size:cover;
     color:white;
+    margin-top: 0px;
 }
 
 .card:nth-child(3){
-    height:10em;
+    height:20em;
     max-width:auto;
     background-image: url(../images/imagen-3.jfif);
     background-repeat:no-repeat ;
@@ -163,12 +179,22 @@ p{
 
 .card:not(:first-child){
     width:100%;
-    flex:1;
+    flex: 0 0 90%;
 }
 
 .card{
     margin:1em;
 }
+
+#mar{
+    margin-top: 800px;
+}
+
+.ul#datos{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
 
 
 
