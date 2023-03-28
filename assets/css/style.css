@@ -178,13 +178,16 @@ p{
 }
 
 .card:not(:first-child){
-    width:100%;
+    width:80%;
     flex: 0 0 90%;
 }
 
 .card{
     margin:1em;
 }
+
+
+
 
 #mar{
     margin-top: 800px;
